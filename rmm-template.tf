@@ -19,7 +19,7 @@ provider "ibm" {
 ##################################################################################################
 
 resource "ibm_is_vpc" "vpc" {
-  name           = "${var.prefix}-Rackware-vpc"
+  name           = "${var.prefix}vpc"
   resource_group = data.ibm_resource_group.rg.id
 }
 
@@ -29,7 +29,7 @@ data "ibm_resource_group" "rg" {
 }
 
 resource "ibm_is_security_group" "sg" {
-  name           = "${var.prefix}-Rackware-SG"
+  name           = "${var.prefix}sg"
   vpc            = ibm_is_vpc.vpc.id
   resource_group = data.ibm_resource_group.rg.id
 }
@@ -47,7 +47,7 @@ resource "ibm_is_security_group_rule" "ssh" {
 }
 
 resource "ibm_is_subnet" "subnet" {
-  name                     = "${var.prefix}-Rackware-subnet"
+  name                     = "${var.prefix}subnet"
   vpc                      = ibm_is_vpc.vpc.id
   zone                     = var.zone
   total_ipv4_address_count = 8
@@ -61,7 +61,7 @@ data "ibm_is_ssh_key" "ssh_key_id" {
 
 
 resource "ibm_is_image" "custom_image" {
-  name             = "${var.prefix}-Rackware-RMM-Template"
+  name             = "${var.prefix}-cent-os-7"
   href             = var.image_url
   operating_system = "centos-7-amd64"
   resource_group   = data.ibm_resource_group.rg.id
@@ -73,7 +73,7 @@ resource "ibm_is_image" "custom_image" {
 
 
 resource "ibm_is_instance" "vsi" {
-  name           = "${var.prefix}-Rackware-vsi"
+  name           = "${var.prefix}vsi"
   vpc            = ibm_is_vpc.vpc.id
   zone           = var.zone
   keys           = [data.ibm_is_ssh_key.ssh_key_id.id]
@@ -88,7 +88,7 @@ resource "ibm_is_instance" "vsi" {
 }
 
 resource "ibm_is_floating_ip" "fip" {
-  name           = "${var.prefix}-Rackware-fip"
+  name           = "${var.prefix}fip"
   target         = ibm_is_instance.vsi.primary_network_interface[0].id
   resource_group = data.ibm_resource_group.rg.id
 }
