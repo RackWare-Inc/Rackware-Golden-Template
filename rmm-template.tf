@@ -4,7 +4,7 @@ variable "TF_VERSION" {
 }
 
 variable "image_url" {
-  default = "cos://us-east/rackware-bucket/RackWare-Golden-Template-0.qcow2"
+  default = "cos://us-east/rackware-bucket/RackwareGoldenTemplate-0.qcow2"
 }
 
 /**
@@ -67,7 +67,7 @@ resource "ibm_is_image" "custom_image" {
   resource_group   = data.ibm_resource_group.rg.id
   timeouts {
     create = "30m"
-    delete = "10m"
+    delete = "30m"
   }
 }
 
