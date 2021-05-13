@@ -46,6 +46,24 @@ resource "ibm_is_security_group_rule" "ssh" {
   }
 }
 
+resource "ibm_is_security_group_rule" "https_443" {
+  group     = ibm_is_security_group.sg.id
+  direction = "inbound"
+  remote    = "0.0.0.0/0"
+
+ tcp {
+    port_min = 443
+    port_max = 443
+  }
+}
+
+resource "ibm_is_security_group_rule" "outbound_traffic" {
+  group     = ibm_is_security_group.sg.id
+  direction = "outbound"
+  remote    = "0.0.0.0/0"
+  
+}
+
 resource "ibm_is_subnet" "subnet" {
   name                     = "${var.name}subnet"
   vpc                      = ibm_is_vpc.vpc.id
@@ -66,8 +84,8 @@ resource "ibm_is_image" "custom_image" {
   operating_system = "centos-7-amd64"
   resource_group   = data.ibm_resource_group.rg.id
   timeouts {
-    create = "30m"
-    delete = "30m"
+    create = "90m"
+    delete = "90m"
   }
 }
 
