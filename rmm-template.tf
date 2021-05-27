@@ -4,7 +4,7 @@ variable "TF_VERSION" {
 }
 
 variable "image_url" {
-  default = "cos://us-east/rackware-rmm-bucket/RackwareGoldenTemplate-0.qcow2"
+  default = "cos://us-east/rackware-rmm-bucket/RMMGoldenTemplate-0.qcow2"
 }
 
 /**
