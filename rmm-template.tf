@@ -4,7 +4,7 @@ variable "TF_VERSION" {
 }
 
 variable "image_url" {
-  default = "cos://us-east/rackware-rmm-bucket/centos-7.9-x86_64-rmm.qcow2"
+  default = "cos://us-east/rackware-rmm-bucket/RMMGoldenTemplate.qcow2"
 }
 
 /**
