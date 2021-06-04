@@ -85,4 +85,4 @@ For the first 3- months of the promotional period, this product is supported thr
 - Support Page https://support.wanclouds.net
 
 
-After the 3- month promotional period, please open any issues directly with Rackware support team at support@rackwareinc.com. Your issue will typically be answered in approximately <SLA time line>.
+After the 3- month promotional period, please open any issues directly with Rackware support team at support@rackwareinc.com. Your issue will typically be answered approximately as per the SLA timelines.
