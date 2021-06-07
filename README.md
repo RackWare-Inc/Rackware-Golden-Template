@@ -10,9 +10,9 @@ RackWare’s RMM software platform delivers a suite of intuitive and automated s
 
 
 Key Benefits
-- Non-disruptive /Live Migrations
+- Non-disruptive / Live Migrations
 - Highly secure and efficient data transfer.
-- Include/Exclude Lists: Capture and sync only specific files and directories rather than entire systems.
+- Include / Exclude Lists: Capture and sync only specific files and directories rather than entire systems.
 - Delta Sync: Sync only the changed parts of files during the final data sync, drastically lowering cutover times.
 - Network optimization: bandwidth usage limitations, compression and check point restart for all sync operations
 
@@ -45,7 +45,7 @@ This will create a new VPC to install the RMM server.
 
 
 ## License Requirements
-RMM server on the IBM Cloud is bring your own license (BYOL).  If this the first time order and using Rackware RMM server, then there is a 3 month promotional period.  Thereafter you will need to purchase the license directly from Rackware (email address).
+RMM server on the IBM Cloud is bring your own license (BYOL).  If this the first time order and using Rackware RMM server, then there is a 3 month promotional period.  Thereafter you will need to purchase the license directly from Rackware ( licensing@rackwareinc.com ).
 
 
 For additional information about pricing or inquiries, reach out to sales@rackwareinc.com
