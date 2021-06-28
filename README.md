@@ -1,9 +1,3 @@
----
-copyright:
-  years: 2021
----
-
-##Beta release ##
 
 ## Product Overview
 RackWare's RMM Migrations are an automated, easy and convenient process to move existing workloads
@@ -61,18 +55,6 @@ licenses and the licenses allow you to migrate 3 servers simultaneously, but are
 to migrate additional servers as needed during the subscription period.  See **Production
 Configuration** section for more information about obtaining the promotional licenses.
 
-## Getting support during the Promotional Period
-For the first 3- months of the promotional period, this product is supported through our migration
-partner, Wanclouds.  A case can be opened by the following, in both cases please add Rackware RMM in
-the subject line:
-- Email at support@wanclouds.net
-- Support Page https://support.wanclouds.net
-
-## Getting support after the Promotional Period
-After the 3- month promotional period, please open any issues directly with Rackware support team at
-support@rackwareinc.com
-
-
 ### Ordering Page Deployment Values
 This will create a new VPC to install the RMM server.
 
@@ -102,3 +84,23 @@ Complete the following steps to uninstall a Helm chart from your account. 
 3. Click **Actions** > **Destroy resources**. All resources in your workspace are deleted.
 4. Click **Update**.
 5. To delete your workspace, click **Actions** > **Delete workspace**.
+
+## Getting Support
+This product is supported through our migration partner, Wanclouds.
+Please open a case via one of the following options:
+- Support page: https://support.wanclouds.net
+- Email : support@wanclouds.net <br>
+In all cases, please add Rackware RMM in the subject line.
+The Team is available 365x24x7 and will respond to cases within 24 hours.
+The Wanclouds support is based in United States and India
+
+### Getting support during the Promotional Period
+For the first 3- months of the promotional period, this product is supported through our migration
+partner, Wanclouds.  A case can be opened by the following, in both cases please add Rackware RMM in
+the subject line:
+- Email at support@wanclouds.net
+- Support Page https://support.wanclouds.net
+
+### Getting support after the Promotional Period
+After the 3- month promotional period, please open any issues directly with Rackware support team at
+support@rackwareinc.com
