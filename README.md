@@ -86,21 +86,15 @@ Complete the following steps to uninstall a Helm chart from your account. 
 5. To delete your workspace, click **Actions** > **Delete workspace**.
 
 ## Getting Support
-This product is supported through our migration partner, Wanclouds.
+### Getting support during the Promotional Period
+For the first three months of the promotional period, This product is supported through our migration partner, Wanclouds.
 Please open a case via one of the following options:
-- Support page: https://support.wanclouds.net
-- Email : support@wanclouds.net <br>
+- Email : support@wanclouds.net
+- Support page: https://support.wanclouds.net <br>
 In all cases, please add Rackware RMM in the subject line.
 The Team is available 365x24x7 and will respond to cases within 24 hours.
 The Wanclouds support is based in United States and India
 
-### Getting support during the Promotional Period
-For the first 3- months of the promotional period, this product is supported through our migration
-partner, Wanclouds.  A case can be opened by the following, in both cases please add Rackware RMM in
-the subject line:
-- Email at support@wanclouds.net
-- Support Page https://support.wanclouds.net
-
 ### Getting support after the Promotional Period
-After the 3- month promotional period, please open any issues directly with Rackware support team at
+After the three months promotional period, please open any issues directly with Rackware support team at
 support@rackwareinc.com
