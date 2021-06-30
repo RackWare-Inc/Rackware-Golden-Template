@@ -90,7 +90,8 @@ Complete the following steps to uninstall a Helm chart from your account. 
 For the first three months of the promotional period, This product is supported through our migration partner, Wanclouds.
 Please open a case via one of the following options:
 - Email : support@wanclouds.net
-- Support page: https://support.wanclouds.net <br>
+- Support page: https://support.wanclouds.net
+
 In all cases, please add Rackware RMM in the subject line.
 The Team is available 365x24x7 and will respond to cases within 24 hours.
 The Wanclouds support is based in United States and India
