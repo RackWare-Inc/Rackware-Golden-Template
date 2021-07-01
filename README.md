@@ -94,8 +94,8 @@ Please open a case via one of the following options:
 
 In all cases, please add Rackware RMM in the subject line.
 The Team is available 365x24x7 and will respond to cases within 24 hours.
-The Wanclouds support is based in United States and India
+The Wanclouds support is based in United States, Australia, India and Pakistan.
 
 ### Getting support after the Promotional Period
 After the three months promotional period, please open any issues directly with Rackware support team at
-support@rackwareinc.com
+support@rackwareinc.com. The support team is available 365x24x7. The Rackware support is based in United States and India.
