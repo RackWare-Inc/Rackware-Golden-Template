@@ -15,11 +15,12 @@ processes to be fast, easy and error-free.
 
 Key Benefits
 - Non-disruptive /Live Migrations
-- Highly secure and efficient data transfer.
+- Highly secure and efficient data transfer
+- Auto provision of target Virtual Server Instance
 - Include/Exclude Lists: Capture and sync only specific files and directories rather than entire
-systems.
+systems
 - Delta Sync: Sync only the changed parts of files during the final data sync, drastically lowering
-cutover times.
+cutover times
 - Network optimization: bandwidth usage limitations, compression and check point restart for all
 sync operations
 
