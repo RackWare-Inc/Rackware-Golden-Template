@@ -4,7 +4,7 @@ variable "TF_VERSION" {
 }
 
 variable "image_url" {
-  default = "cos://us-east/rackware-rmm-bucket/RackWareIBMPaidNov2021.qcow2"
+  default = "cos://us-east/rackware-rmm-bucket/RackWareRMMIBMPaidv7.4.0.458.qcow2"
 }
 
 /**
