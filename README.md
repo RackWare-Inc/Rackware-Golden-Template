@@ -43,7 +43,7 @@ This will create a new VPC to install the RMM server.
 | ibmcloud_api_key | IBM Cloud VPC API key needed to deploy IAM enabled resources | API key |
 | ssh_key | Public ssh key to login into the resource | Name of an existing SSH key of the region that you wished to login in with |
 | resource_group | IBM Cloud resource group | Name of an existing resource group that you want this resource to be placed under |
-| vpc_ame | The name of the VPC | Any arbitrary name that complies to IBM VPC naming schema |
+| vpc_name | The name of the VPC | Any arbitrary name that complies to IBM VPC naming schema |
 | subnet_name | The name of the subnet | Any arbitrary name that complies to IBM subnet naming schema |
 | host_name | The name of the VSI | Any arbitrary name that complies to IBM vsi naming schema |
 | attach_floating_ip | Create and attach floating IP address to RMM server | Leave default value if you do not want public adress to be created and attached |
