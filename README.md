@@ -1,21 +1,21 @@
 
 ## Product Overview
-RackWare’s RMM Migration is an automated process to migrate your bare metal and virtual workloads from IBM Cloud® Classic to IBM Cloud VPC VSI. 
+RackWare Management Module (RMM) Migration is an automated process to migrate your bare metal and virtual workloads from IBM Cloud® Classic to IBM Cloud VPC VSI. 
 RMM creates an exact duplicate of a running image without the burden of rebuilding or recreating template images and applications. It decouples the application stack from the underlying platform, allowing it to be ported to the IBM Cloud infrastructure with ease. 
-RMM simplifies migration of large, complex environments through a simple interface and reduces the time required from weeks to days, reducing capital and operating expenses. RackWare RMM includes discovery, analysis, and automation features, allowing all processes to be fast, easy, and error-free.
+RMM simplifies migration of large, complex environments through a simple interface and reduces the time required from weeks to days, reducing capital and operating expenses. RMM includes discovery, analysis, and automation features, allowing all processes to be fast, easy, and error-free.
 
 ## Key Benefits
 -	Live and non-disruptive migrations 
 -	Highly secure and efficient data transfer 
 -	Auto provision of target virtual server instance 
--	Include/exclude lists: Capture and sync only specific files and directories rather than entire systems 
+-	Include/Exclude lists: Capture and sync only specific files and directories rather than entire systems 
 -	Delta sync: Sync only the changed parts of files during the final data sync, drastically lowering cutover times 
 -	Network optimization: Bandwidth usage limitations, compression and check point restart for all sync operations 
  
 For more information, visit https://www.rackwareinc.com/cloud-migration 
 
 ## Pre-requisites
-Review the following prerequisites for RMM software installation:  
+Review the following pre-requisites for RMM software installation:  
 -	Make sure that you have IBM Cloud account permissions and access. 
 -	Identify the region and zone where you want to deploy the RMM server 
 -	For more information about IBM Cloud VPC, see https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
@@ -26,7 +26,7 @@ For more information, see the user guide for the RMM server: https://www.rackwar
 
 ## License Requirements
 For migration using the RMM server, the license model is “Bring Your Own License” (BYOL). This is a subscription-based license, paid monthly. Each license allows you to migrate one or more servers during the subscription period.  
- If this the first-time order and using Rackware RMM server, then there is a 
+ If this the first-time order and using RMM server, then there is a 
 3-month promotional period. Thereafter you will need to purchase the license directly from Rackware (sales@rackwareinc.com). 
 For additional information about pricing or inquiries, reach out to sales@rackwareinc.com
 
@@ -38,15 +38,16 @@ This will create a new VPC to install the RMM server.
 
 | Parameter | Description | Value |
 | --- | --- | --- |
-| TF_Version | terraform engine version to be used in schematics | Leave default value |
 | ibm_region | IBM Cloud region where the resources to be deployed | MZR (for example, us-south) |
+| zone | VPC zone that you wish to deploy the resource in | Zone name (for example, us-south-1) |
 | ibmcloud_api_key | IBM Cloud VPC API key needed to deploy IAM enabled resources | API key |
-| image_url |  | Leave default value |
-| name | The name of the VPC | Any arbitrary name that complies to IBM VPC naming schema |
-| profile | | Leave default value |
-|resource_group | IBM Cloud resource group | Name of an existing resource group that you want this resource to be placed under |
 | ssh_key | Public ssh key to login into the resource | Name of an existing SSH key of the region that you wished to login in with |
-| zone | VPC zone that you wished to deploy the resource in | Zone name (for example, us-south-1) |
+| resource_group | IBM Cloud resource group | Name of an existing resource group that you want this resource to be placed under |
+| vpc_ame | The name of the VPC | Any arbitrary name that complies to IBM VPC naming schema |
+| subnet_name | The name of the subnet | Any arbitrary name that complies to IBM subnet naming schema |
+| host_name | The name of the VSI | Any arbitrary name that complies to IBM vsi naming schema |
+| attach_floating_ip | Create and attach floating IP address to RMM server | Leave default value if you do not want public adress to be created and attached |
+| profile | | Leave default value |
 
 ## Product configuration
 - Change the default password
@@ -70,7 +71,7 @@ Please open a case via one of the following options:
 - Email : support@wanclouds.net
 - Support page: https://support.wanclouds.net
 
-In all cases, please add Rackware RMM in the subject line.
+In all cases, please add RMM in the subject line.
 The Team is available 365x24x7 and will respond to cases within 24 hours.
 The Wanclouds support is based in United States, Australia, India and Pakistan.
 
@@ -81,4 +82,4 @@ Open a case by using the following options:
 -	Email: support@rackwareinc.com 
 -	Phone: +1 (844) 797-8776
 
-In all cases, add RackWare RMM - IBM Cloud in the subject line. The Rackware support is based in United States and India.
+In all cases, add RMM - IBM Cloud in the subject line. The Rackware support is based in United States and India.
