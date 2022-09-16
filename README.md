@@ -25,10 +25,8 @@ The RMM software comes preinstalled as part of the virtual server provisioning p
 For more information, see the user guide for the RMM server: https://www.rackwareinc.com/rackware-rmm-users-guide-for-ibm-cloud
 
 ## License Requirements
-For migration using the RMM server, the license model is “Bring Your Own License” (BYOL). This is a subscription-based license, paid monthly. Each license allows you to migrate one or more servers during the subscription period.  
- If this the first-time order and using RMM server, then there is a 
-3-month promotional period. Thereafter you will need to purchase the license directly from Rackware (sales@rackwareinc.com). 
-For additional information about pricing or inquiries, reach out to sales@rackwareinc.com
+If you are using RMM server for the first-time then there is promotional license for 3 months. Thereafter you will need to purchase the license directly from RackWare (sales@rackwareinc.com).
+ For additional information about pricing or inquiries, reach out to sales@rackwareinc.com. 
 
 ## Promotional License
 The promotional license is per account and for first time usage only. You are allowed up to 3 licenses and the licenses allow you to migrate 3 servers simultaneously, but are re-usable enabling to migrate additional servers as needed during the subscription period. See **Product Configuration** section for more information about obtaining the promotional licenses.
