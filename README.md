@@ -1,8 +1,20 @@
 
 ## Product Overview
-RackWare Management Module (RMM) Migration is an automated process to migrate your bare metal and virtual workloads from IBM Cloud® Classic to IBM Cloud VPC VSI. 
+RackWare Management Module (RMM) Migration is an automated process to migrate your bare metal and virtual workloads from IBM Cloud® Classic to Bare Metal, Virtual Server Instances on IBM Cloud VPC. 
 RMM creates an exact duplicate of a running image without the burden of rebuilding or recreating template images and applications. It decouples the application stack from the underlying platform, allowing it to be ported to the IBM Cloud infrastructure with ease. 
 RMM simplifies migration of large, complex environments through a simple interface and reduces the time required from weeks to days, reducing capital and operating expenses. RMM includes discovery, analysis, and automation features, allowing all processes to be fast, easy, and error-free.
+
+## Supported Migration
+For additional information on the supported migrations, see below:
+- [VMware virtual machine (On-premises) to IBM Cloud VPC virtual servers](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-images-vmware-vpc)
+- [VMware virtual machine (IBM Cloud classic) to IBM Cloud VPC virtual servers](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-images-vmware-vpc-classic)
+- [Hyper-V virtual machine (On-premises, IBM Cloud Classic) to IBM Cloud VPC virtual servers](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-images-vmware-vsi)
+- [On-premises physical machines to IBM Cloud VPC virtual servers](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-migrating-on-prem-cloud-vpc)
+- [GCP, AWS, Azure, virtual machines and OCI Baremetal to IBM Cloud VPC virtual servers](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-aws-azure-gcp-and-oci-workloads-to-ibm-cloud-vpc-vsi-migration-with-rackware-rmm)
+- [IBM Cloud classic bare metal to IBM Cloud classic bare metal](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-p-p-migration-bare-metal-overview)
+- [IBM Cloud classic bare metal to IBM Cloud VPC bare metal](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-pv-migration-private-network)
+- [RMM can also be used to migrate databases ( MSSQL, MySQL ). Oracle RAC and ASM disk-based, AWS RDS like ( managed ) databases are not supported.](https://cloud.ibm.com/docs/cloud-infrastructure?topic=cloud-infrastructure-mssql-db-overview#rackware-management-module)
+
 
 ## Key Benefits
 -	Live and non-disruptive migrations 
@@ -21,7 +33,7 @@ Review the following pre-requisites for RMM software installation:
 -	For more information about IBM Cloud VPC, see https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started
 
 ## Software Installation/Deployment
-The RMM software comes preinstalled as part of the virtual server provisioning process. After the virtual server is deployed, you can access RMM through the CLI or GUI. For GUI access, enter the public IP address of the RMM server. Default credential is “admin” and “rackware” is the password. Be sure to change the default password. 
+The RMM software comes preinstalled as part of the virtual server provisioning process. After the virtual server is deployed, you can access RMM through the CLI or GUI. For GUI access, enter the public IP address of the RMM server. Default credential is “admin” and “rackware” is the password. Make sure to change the default password. 
 For more information, see the user guide for the RMM server: https://www.rackwareinc.com/rackware-rmm-users-guide-for-ibm-cloud
 
 ## License Requirements
@@ -75,9 +87,9 @@ The Wanclouds support is based in United States, Australia, India and Pakistan.
 
 ## Support after the Promotional Period
 After the three months promotional period, for assistance, contact the RackWare support team.
-Open any issues directly with Rackware support team. The support team is available 365x24x7.
+Open any issues directly with RackWare support team. The support team is available 365x24x7.
 Open a case by using the following options: 
 -	Email: support@rackwareinc.com 
 -	Phone: +1 (844) 797-8776
 
-In all cases, add RMM - IBM Cloud in the subject line. The Rackware support is based in United States and India.
+In all cases, add RMM - IBM Cloud in the subject line. The RackWare support is based in United States and India.
