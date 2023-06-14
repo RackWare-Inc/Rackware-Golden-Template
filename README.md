@@ -34,7 +34,7 @@ Review the following pre-requisites for RMM software installation:
 
 ## Software Installation/Deployment
 The RMM software comes preinstalled as part of the virtual server provisioning process. After the virtual server is deployed, you can access RMM through the CLI or GUI. For GUI access, enter the public IP address of the RMM server. Default credential is “admin” and “rackware” is the password. Make sure to change the default password. 
-For more information, see the user guide for the RMM server: https://www.rackwareinc.com/rackware-rmm-users-guide-for-ibm-cloud
+For more information, see the user guide for the RMM server: https://www.rackwareinc.com/support
 
 ## License Requirements
 If you are using RMM server for the first-time then there is promotional license for 3 months. Thereafter you will need to purchase the license directly from RackWare (sales@rackwareinc.com).
@@ -75,20 +75,9 @@ Complete the following steps to uninstall a Helm chart from your account. 
 5. To delete your workspace, click **Actions** > **Delete workspace**.
 
 ## Support
-For assistance during the Promotional Period, for the first three months of the promotional period, this product is supported through our migration partner, Wanclouds.
+For assistance, for the first three months of the promotional period.
 
 Please open a case via one of the following options:
-- Email : support@wanclouds.net
-- Support page: https://support.wanclouds.net
-
-In all cases, please add RMM in the subject line.
-The Team is available 365x24x7 and will respond to cases within 24 hours.
-The Wanclouds support is based in United States, Australia, India and Pakistan.
-
-## Support after the Promotional Period
-After the three months promotional period, for assistance, contact the RackWare support team.
-Open any issues directly with RackWare support team. The support team is available 365x24x7.
-Open a case by using the following options: 
 -	Email: support@rackwareinc.com 
 -	Phone: +1 (844) 797-8776
 
