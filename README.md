@@ -34,7 +34,7 @@ Review the following pre-requisites for RMM software installation:
 
 ## Software Installation/Deployment
 The RMM software comes preinstalled as part of the virtual server provisioning process. After the virtual server is deployed, you can access RMM through the CLI or GUI. For GUI access, enter the public IP address of the RMM server. Default credential is “admin” and “rackware” is the password. Make sure to change the default password. 
-For more information, see the user guide for the RMM server: https://www.rackwareinc.com/support
+For more information, see the user guide for the RMM server: https://www.rackwareinc.com/rackware-rmm-getting-started-for-ibm-cloud
 
 ## License Requirements
 If you are using RMM server for the first-time then there is promotional license for 3 months. Thereafter you will need to purchase the license directly from RackWare (sales@rackwareinc.com).
