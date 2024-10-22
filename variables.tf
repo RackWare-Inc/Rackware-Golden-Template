@@ -1,5 +1,5 @@
 variable "image_url" {
-  default     = "cos://us-east/rackware-rmm-bucket/RackWareRMMGAv7.6.0.47.qcow2"
+  default     = "cos://us/rackware-rmm-bucket/RMM_v74822_IBM_Marketplace.qcow2"
   description = "URL for source VSI image used to spin up instance."
 }
 
